@@ -1,0 +1,138 @@
+
+@import "reset.css";
+html,
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.65em;
+  color: #393d41;
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-style: italic;
+}
+h2 {
+  font-size: 1.9rem;
+}
+.headings {
+  color: #25a2c3;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5em;
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 20vw;
+  text-align: center;
+}
+.immagine-header {
+  margin-top: 4vw;
+  max-height: 10vw;
+}
+#titolo-colore {
+  color: white;
+}
+
+hr {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+button {
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 3% 7%;
+  font-size: 1rem;
+  border-radius: 1vw;
+  cursor: pointer;
+  display: block;
+  margin: 5vw auto 0;
+}
+
+#testimonianze {
+  background-color: #e22d0e;
+  height: 70vw;
+}
+
+#immaginebg {
+  background-image: url(/assets/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 15vw;
+}
+.background-blue {
+  background-color: #3394c9;
+  height: 40vh;
+  background-size: cover;
+  text-align: center;
+  padding-top: 4vw;
+}
+p {
+  max-width: 100vw;
+  margin: 0 5vw;
+  text-align: center;
+}
+
+.image-alt {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+.bordi {
+  width: 75%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid #dee1e3;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 10vw;
+}
+
+.bordi-immagine {
+  width: 100%;
+  height: 50vw;
+  margin: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.titolo-bordi {
+  color: #25a2c3;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.bordi-testo {
+  color: #393d41;
+  font-size: 1rem;
+  margin: 0 auto;
+  line-height: 1.5em;
+  max-width: 100vw;
+  text-align: center;
+}
+
+#fotheader {
+  color: #c8e7f0;
+}
+footer {
+  background-color: #3394c9;
+}
